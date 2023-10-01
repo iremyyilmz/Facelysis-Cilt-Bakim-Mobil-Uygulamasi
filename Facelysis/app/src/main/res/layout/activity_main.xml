@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="399dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/text"
+        android:textColor="#0C0C0C"
+        android:textColorHint="#F1EAEA"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="96dp"
+        android:layout_height="89dp"
+        android:background="@drawable/face_recognition"
+        android:text="BUTTON"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FAF6F6"
+        android:textSize="20sp"
+        app:icon="@color/primaryLightColor"
+        app:iconTint="#E91E63"
+        app:strokeColor="#EFE8E8"
+        tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,MissingConstraints,SpeakableTextPresentCheck,VisualLintButtonSize"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="216dp"
+        tools:text="@string/button1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="116dp"
+        android:layout_height="92dp"
+        android:background="@drawable/cart_heart"
+        android:text="Button"
+        android:textColor="#FAF6F6"
+        android:textSize="16sp"
+        app:icon="@color/primaryLightColor"
+        tools:ignore="HardcodedText,MissingConstraints,VisualLintButtonSize,VisualLintBounds,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="213dp"
+        tools:text="@string/button2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="585dp"
+        android:layout_height="425dp"
+        app:srcCompat="@drawable/cilt"
+        tools:layout_editor_absoluteX="-87dp"
+        tools:layout_editor_absoluteY="396dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="140dp"
+        android:layout_height="22dp"
+        android:text="Yüz Analizi Yap"
+        android:textColor="#9C27B0"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="313dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ürünleri görüntüle"
+        android:textColor="#9C27B0"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="313dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
